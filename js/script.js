@@ -22,6 +22,8 @@ const cat = {
   },
 };
 
+cat.complain();
+
 // question 2
 const heading = document.querySelector("h3");
 heading.innerHTML = "Updated heading";
@@ -47,13 +49,13 @@ resultsContainer.style.backgroundColor = "yellow";
 resultsContainer.innerHTML = `<p>New paragraph</p>`;
 
 // question 7
-function createList(list) {
+function namesInConsole(list) {
   for (let i = 0; i < list.length; i++) {
     console.log(list[i].name);
   }
 }
 
-createList(cats);
+namesInConsole(cats);
 
 // question 8
 function createCats(cats) {
