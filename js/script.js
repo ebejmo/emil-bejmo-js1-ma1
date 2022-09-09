@@ -22,7 +22,7 @@ const cat = {
   },
 };
 
-cat.complain();
+// cat.complain();
 
 // question 2
 const heading = document.querySelector("h3");
